@@ -5,7 +5,7 @@
 
 .main {
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(Nsut_image.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(10.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -121,19 +121,22 @@ ul li a:hover{
 }
 
 .content .par{
+    margin-top: 20px;
     padding-left: 20px;
     padding-bottom: 25px;
     font-family: Arial;
-    letter-spacing: 1.2px;
-    line-height: 30px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    line-height: 22px;
 }
 
 .content h1{
     font-family: 'Times New Roman';
     font-size: 50px;
     padding-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
+    margin-top: 90px;
+    letter-spacing: 1px;
+
 }
 
 .content .cn{
@@ -166,14 +169,15 @@ ul li a:hover{
 }
 
 .form{
+
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    background: linear-gradient(to top, rgba(52, 43, 43, 0.648)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: -20px;
     left: 870px;
     transform: translate(0%,-5%);
-    border-radius: 10px;
+    border-radius: 10px ;
     padding: 25px;
 }
 
@@ -328,7 +332,7 @@ ul li a:hover{
     form{
         width: 250px;
         height: 380px;
-        background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        background: linear-gradient(to top, rgba(183, 3, 3, 0.8)50%,rgba(156, 27, 27, 0.8)50%);
         position: absolute;
         top: 420px;
         left: 50px;
